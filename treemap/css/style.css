@@ -52,7 +52,3 @@ fill: #aaa;
 padding: 5px;
 	 font-family: "Open Sans", Helvetica, Arial, sans-serif; 
 }
-
-var colorScale = d3.scale.linear()
-    .range(['lightgreen', 'darkgreen']) // or use hex values
-    .domain([minValue, maxValue]);
